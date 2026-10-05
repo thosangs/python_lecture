@@ -51,6 +51,8 @@
 | 🟡 **Paham** | Ngerti konsepnya, belum harus lancar | Demo + 1 contoh |
 | ⚪ **Kenalan** | Cukup tahu "ada" | 1 kalimat + 1 contoh, jangan didalami |
 
+**Slide = poin saja.** Deck sengaja hanya berisi kata kunci, kode, dan visual. Penjelasan lengkap ada di dokumen ini dan di catatan presenter tiap slide (`/presenter`), jadi "Di layar" di bawah bisa lebih panjang daripada yang benar-benar tampil.
+
 **Format tiap slide:**
 - **Di layar**: apa yang tampil di slide (usahakan max ±20 kata + visual)
 - **Ngomongnya**: poin bicara / skrip (dalam tanda kutip = kalimat yang bisa langsung kamu pakai)

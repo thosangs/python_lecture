@@ -55,7 +55,7 @@ const babs = [
   margin-bottom: 10px;
 }
 .sc-count { color: var(--tk-strong); }
-.sc-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 9px; }
+.sc-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 11px; padding-top: 4px; }
 .sc-cell {
   position: relative;
   border: 2.5px dashed var(--line);
@@ -69,10 +69,10 @@ const babs = [
 .sc-cell.done .sc-no { color: var(--tk-strong); }
 .sc-stamp {
   position: absolute;
-  right: 6px;
-  bottom: 4px;
-  width: 30px;
-  height: 30px;
+  right: -8px;
+  top: -9px;
+  width: 28px;
+  height: 28px;
   display: grid;
   place-items: center;
   border-radius: 50%;
@@ -90,7 +90,7 @@ const babs = [
 .compact .sc-grid { grid-template-columns: repeat(9, 1fr); gap: 6px; }
 .compact .sc-cell { min-height: 46px; padding: 5px 6px; }
 .compact .sc-name { font-size: 0.6rem; }
-.compact .sc-stamp { width: 22px; height: 22px; font-size: 0.7rem; right: 4px; bottom: 3px; }
+.compact .sc-stamp { width: 21px; height: 21px; font-size: 0.66rem; right: -6px; top: -8px; border-width: 2.5px; }
 @keyframes stamp-in {
   from { transform: scale(2.6) rotate(-35deg); opacity: 0; }
   to { transform: scale(1) rotate(-12deg); opacity: 1; }

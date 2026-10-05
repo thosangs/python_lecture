@@ -62,7 +62,7 @@ html.dark {
   background-size: 24px 24px;
   color: var(--fg);
   font-family: var(--f-body);
-  font-size: 1.04rem;
+  font-size: 1.2rem;
   padding: 2rem 2.6rem 2.6rem;
 }
 
@@ -76,7 +76,7 @@ html.dark {
   line-height: 0.98;
 }
 .slidev-layout h1 { font-size: 3.7rem; margin: 0 0 0.25em; }
-.slidev-layout h2 { font-size: 2.05rem; margin: 0 0 0.6em; }
+.slidev-layout h2 { font-size: 2.4rem; margin: 0 0 0.6em; }
 .slidev-layout h2::after {
   content: "";
   display: block;
@@ -125,7 +125,7 @@ html.dark {
   color: var(--tk-strong);
   margin-bottom: 0.6em;
 }
-.lead { font-size: 1.28rem; line-height: 1.45; color: var(--muted); }
+.lead { font-size: 1.5rem; line-height: 1.4; color: var(--muted); }
 .lead b { color: var(--fg); }
 .muted { color: var(--muted); }
 .small { font-size: 0.86rem; }
@@ -152,7 +152,7 @@ html.dark {
   border: 3px solid var(--border);
   background: var(--surface);
   border-radius: 10px;
-  padding: 13px 17px;
+  padding: 16px 20px;
   box-shadow: 6px 6px 0 var(--shadow);
   min-width: 0;
 }
@@ -171,7 +171,7 @@ html.dark {
 .box-h {
   font-family: var(--f-mono);
   font-weight: 800;
-  font-size: 0.74rem;
+  font-size: 0.8rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   margin-bottom: 0.45em;
@@ -222,6 +222,13 @@ html.dark {
   box-shadow: 0 3px 0 var(--border);
   background: var(--surface);
 }
+
+/* ---------- Point slides ---------- */
+.point { font-family: var(--f-display); font-size: 1.7rem; line-height: 1.15; letter-spacing: -0.01em; }
+.point.sm { font-size: 1.3rem; }
+.icon { font-size: 2.6rem; line-height: 1; }
+.card .point { margin-top: 6px; }
+.bullets li { font-size: 1.35rem; font-weight: 600; margin: 0.5em 0; }
 
 /* ---------- Big numbers ---------- */
 .num {
@@ -325,7 +332,7 @@ html.dark {
   border: 3px solid var(--border);
   border-radius: 10px;
   overflow: hidden;
-  font-size: 0.86rem;
+  font-size: 1rem;
   box-shadow: 6px 6px 0 var(--shadow);
   background: var(--surface);
 }
@@ -350,7 +357,7 @@ html.dark {
 .slidev-layout tbody tr:first-child td { border-top: none; }
 .slidev-layout td + td, .slidev-layout th + th { border-left: 1.5px solid var(--line); }
 .slidev-layout th + th { border-left-color: rgba(17, 17, 17, 0.25); }
-.slidev-layout table.dense { font-size: 0.78rem; }
+.slidev-layout table.dense { font-size: 0.9rem; }
 .slidev-layout table.dense td { padding: 4px 10px; }
 
 /* ---------- Code ---------- */
@@ -362,13 +369,13 @@ html.dark {
   background: var(--code-bg) !important;
   box-shadow: 6px 6px 0 var(--tk) !important;
   padding: 0.75em 1em !important;
-  font-size: 0.75rem !important;
+  font-size: 0.82rem !important;
   line-height: 1.5 !important;
   max-width: 100%;
   overflow-x: auto;
 }
-.code-sm .slidev-code { font-size: 0.66rem !important; line-height: 1.42 !important; padding: 0.6em 0.85em !important; }
-.code-xs .slidev-code { font-size: 0.58rem !important; line-height: 1.38 !important; padding: 0.55em 0.8em !important; }
+.code-sm .slidev-code { font-size: 0.74rem !important; line-height: 1.42 !important; padding: 0.6em 0.85em !important; }
+.code-xs .slidev-code { font-size: 0.64rem !important; line-height: 1.38 !important; padding: 0.55em 0.8em !important; }
 .code-lg .slidev-code { font-size: 1rem !important; }
 .code-yl .slidev-code { box-shadow: 6px 6px 0 var(--yl) !important; }
 .code-err .slidev-code { box-shadow: 6px 6px 0 var(--err) !important; }
