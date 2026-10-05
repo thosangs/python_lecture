@@ -1,4 +1,4 @@
-# Slides: Laporan Pagi Raka
+# Slides: Ijazah Raka
 
 Deck [Slidev](https://sli.dev) untuk kelas Python pemula (2,5 jam). Tema neo-brutalist, dark mode default (toggle `d` untuk light), warna kedua toska, aksen kuning.
 
@@ -14,5 +14,5 @@ npm run build      # → dist/ (di CI: --base /<nama-repo>/)
   - `mode`: `colab-demo` · `hands-on` · `vscode` · `break`
   - `where`: section notebook yang dibuka, misalnya `Materi · Bab 4`
   - `footer: false`: sembunyikan footer
-- Komponen: `<StampCard :done="3" :stamping="3" compact />`, `<Goto to="hands-on" where="..." href="..." />`, `<Predict :options="[...]" :answer="1">kode</Predict>`, `<IndexStrip text="..." :sels="['[0:3]']" />` (butuh `clicks: N` di frontmatter), `<Jar label value type />`, `<Countdown :minutes="10" />`.
+- Komponen: `<Transkrip :done="3" :stamping="3" compact />`, `<Goto to="hands-on" where="..." href="..." />`, `<Predict :options="[...]" :answer="1">kode</Predict>`, `<IndexStrip text="..." :sels="['[0:3]']" />` (butuh `clicks: N` di frontmatter), `<Folder label value type />`, `<Countdown :minutes="10" />`.
 - `vite.config.ts`: mematikan CSS minify. Ini workaround bug Slidev v53 + Vite 8, yang membuat build gagal di lightningcss.

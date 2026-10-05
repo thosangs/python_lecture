@@ -19,7 +19,7 @@ from nbclient import NotebookClient
 
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_NOTEBOOKS = [
-    ROOT / "notebooks" / "01_materi_kopi_senja.ipynb",
+    ROOT / "notebooks" / "01_materi_ijazah_raka.ipynb",
     ROOT / "notebooks" / "03_kunci_jawaban.ipynb",
 ]
 

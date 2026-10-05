@@ -1,6 +1,6 @@
 <script setup>
 // Navigasi per slide (terinspirasi footer dbt_lecture):
-// bab aktif · progres kartu stempel · penanda lokasi (Colab/VSCode/Hands-on) · nomor slide
+// bab aktif · progres transkrip · penanda lokasi (Colab/VSCode/Hands-on) · nomor slide
 import { computed } from 'vue'
 import { useSlideContext } from '@slidev/client'
 
@@ -36,7 +36,7 @@ const pad = n => String(n).padStart(2, '0')
 <template>
   <div v-if="show" class="deck-nav">
     <div class="sec"><span class="tick">■</span>{{ current.section }}</div>
-    <div class="stamps" :title="`Kartu stempel: ${Math.min(current.bab - 1, 8)}/8`">
+    <div class="stamps" :title="`Transkrip: ${Math.min(current.bab - 1, 8)}/8 lulus`">
       <span
         v-for="i in 8"
         :key="i"
