@@ -1,0 +1,18 @@
+# node / slidev
+node_modules/
+slides/dist/
+slides/.slidev/
+slides/components.d.ts
+
+# python / jupyter
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# os / editor
+.DS_Store
+.claude/
+
+# catatan mentah kelas, simpan lokal saja (sama seperti material.txt di dbt_lecture)
+python_dbb.md
