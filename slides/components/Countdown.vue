@@ -39,7 +39,7 @@ onUnmounted(() => clearInterval(timer))
 <template>
   <button class="countdown" :class="{ running, over: left === 0, small }" @click="toggle" @dblclick="reset">
     <span class="time">{{ mmss }}</span>
-    <span class="hint">{{ left === 0 ? 'waktunya balik! 🎓' : running ? 'klik = jeda' : 'klik = mulai · dobel klik = reset' }}</span>
+    <span class="hint">{{ left === 0 ? 'waktunya balik! ☕' : running ? 'klik = jeda' : 'klik = mulai · dobel klik = reset' }}</span>
   </button>
 </template>
 
